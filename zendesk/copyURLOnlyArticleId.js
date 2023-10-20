@@ -14,7 +14,7 @@ if (match) {
       console.log("エラーが発生しました。😢");
       console.error(err);
     });
-  }, 1000);
+  }, 1000); // 1 秒待たないと Document is not focused というエラーが出る
 } else {
   console.log("記事番号が見つかりませんでした。😔");
 }
